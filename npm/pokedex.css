@@ -1,0 +1,13 @@
+/* styles.css */
+#pokedex {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  #pokemon-list {
+    width: 30%;
+  }
+  
+  #pokemon-details {
+    width: 60%;
+  }

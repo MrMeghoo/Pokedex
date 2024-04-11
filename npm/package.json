@@ -1,0 +1,17 @@
+{
+  "name": "pokedex",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "seed": "PGPASSWORD=goodworks17 psql -U postgres -d postgres -a -f pokedex.sql"
+  },
+  "author": "Gabe, Jessie, Jordan & Zakai",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^4.19.2",
+    "pg-promise": "^11.6.0",
+    "winston": "^3.13.0"
+  }
+}
